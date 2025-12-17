@@ -50,7 +50,7 @@ uploadBtn.addEventListener('click', async () => {
 
     if (error) throw error
 
-    const fileUrl = `/uploads/${fileName}`
+    const fileUrl = `${location.origin}/danz/media/${fileName}`
     const previewUrl = URL.createObjectURL(file)
 
     let preview = ''
