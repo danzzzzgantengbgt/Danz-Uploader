@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/danz/media/:path*",
+      "destination": "https://shvlfzqqputhddkulttx.supabase.co/storage/v1/object/public/danz-uploader/:path*"
+    }
+  ]
+}
